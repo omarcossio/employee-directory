@@ -1,7 +1,17 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React from "react";
 import './App.css';
+//import API from "./utils/API";
+import Employees from "./components/Employees";
 
 function App() {
+  return (
+    <div className="body">
+      <h1>I tried..</h1>
+      <Employees />
+    </div>
+  )
+  /*
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +30,9 @@ function App() {
       </header>
     </div>
   );
+  */
 }
+
+
 
 export default App;
